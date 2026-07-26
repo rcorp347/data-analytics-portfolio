@@ -32,3 +32,27 @@ This project calculates NBA player efficiency using SQL CTEs and visualizes the 
 - Tableau dashboard design  
 - Interactive actions  
 
+
+## 📁 Data Dictionary (Column Names & Data Types)
+
+| Column Name      | Description                               | Type     | Example Value     |
+|------------------|-------------------------------------------|----------|--------------------|
+| player_name      | Full name of the player                   | string   | LeBron James       |
+| team             | Team abbreviation                         | string   | LAL                |
+| pos              | Player position                           | string   | SF                 |
+| games_played     | Number of games played                    | integer  | 72                 |
+| minutes          | Total minutes played                      | integer  | 2450               |
+| points           | Total points scored                       | integer  | 2100               |
+| rebounds         | Total rebounds                            | integer  | 680                |
+| assists          | Total assists                             | integer  | 540                |
+| steals           | Total steals                              | integer  | 90                 |
+| blocks           | Total blocks                              | integer  | 55                 |
+| fga              | Field goal attempts                       | integer  | 1500               |
+| fg               | Field goals made                          | integer  | 770                |
+| fta              | Free throw attempts                       | integer  | 400                |
+| ft               | Free throws made                          | integer  | 350                |
+| turnovers        | Total turnovers                           | integer  | 210                |
+| fg_pct           | Field goal percentage                     | float    | 0.512              |
+| ft_pct           | Free throw percentage                     | float    | 0.875              |
+| eff_total        | Total efficiency score                    | float    | 2050.3             |
+| eff_per_game     | Efficiency rating per game                | float    | 28.4               |
